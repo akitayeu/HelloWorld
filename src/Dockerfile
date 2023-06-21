@@ -6,4 +6,4 @@ COPY . /app/
 
 RUN javac Main.java
 
-ENTRYPOINT [ "java", "Main" ]
+ENTRYPOINT [ "java", "HelloWorld" ]
